@@ -1,0 +1,18 @@
+name: rnaseq
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - sra-tools
+  - subread
+  - fastqc
+  - samtools
+  - trim-galore
+  - multiqc
+  - hisat2
+  - fastp
+  - ucsc-gtftogenepred
+  - ucsc-genepredtobed
+  - rseqc
