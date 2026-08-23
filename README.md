@@ -14,24 +14,43 @@ Differential gene expression and functional enrichment analysis of RNA-seq data 
 - Together, this is a growth-arrest / senescence-like signature: cell-cycle machinery shut down, stress-arrest and differentiation programs activated.
 
 ## GO enrichment - Downregulated genes (1uM vs Control)
+
+### GO Biological Process
 ![GO_BiologicalProcess](Results/figures/GO_BiologicalProcess_Downregulated_1umVScontrol.png)
+
+### GO Molecular Function
 ![GO_MolecularFunction](Results/figures/GO_MolecularFunction_Downregulated_1umVScontrol.png)
+
+### GO Cellular Component
 ![GO_CellularComponent](Results/figures/GO_CellularComponent_Downregulated_1umVScontrol.png)
 
 ## GO enrichment - Upregulated genes (1uM vs Control)
+
+### GO Biological Process
 ![GO_BiologicalProcess](Results/figures/GO_BiologicalProcess_Upregulated_1umVScontrol.png)
+
+### GO Molecular Function
 ![GO_MolecularFunction](Results/figures/GO_MolecularFunction_Upregulated_1umVScontrol.png)
+
+### GO Cellular Component
 ![GO_CellularComponent](Results/figures/GO_CellularComponent_Upregulated_1umVscontrol.png)
 
 ## Volcano Plots & Network Analysis
 
+### Volcano plot 1uM
 ![Volcano plot 1uM](Results/figures/volcano_1uM_vs_control.png)
+
+### Volcano plot 100nM
 ![Volcano plot 100nM](Results/figures/volcano_100nM_vs_control.png)
+
+### Downregulated STRING network
 ![Downregulated STRING network](Results/figures/string_Downregulated_1umVScontrol.png)
+
+Upregulated STRING network
 ![Upregulated STRING network](Results/figures/string_Upregulated_1umVScontrol.png)
 
 
-## Pipeline
+## Pipeline workflow
 ![Workflow](Results/figures/workflow.png)
 
 
